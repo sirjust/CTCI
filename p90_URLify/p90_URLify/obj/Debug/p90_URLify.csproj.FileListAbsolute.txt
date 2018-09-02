@@ -1,0 +1,7 @@
+C:\Users\SirJUST\source\repos\CTCI\p90_URLify\p90_URLify\bin\Debug\p90_URLify.exe.config
+C:\Users\SirJUST\source\repos\CTCI\p90_URLify\p90_URLify\bin\Debug\p90_URLify.exe
+C:\Users\SirJUST\source\repos\CTCI\p90_URLify\p90_URLify\bin\Debug\p90_URLify.pdb
+C:\Users\SirJUST\source\repos\CTCI\p90_URLify\p90_URLify\obj\Debug\p90_URLify.csprojAssemblyReference.cache
+C:\Users\SirJUST\source\repos\CTCI\p90_URLify\p90_URLify\obj\Debug\p90_URLify.csproj.CoreCompileInputs.cache
+C:\Users\SirJUST\source\repos\CTCI\p90_URLify\p90_URLify\obj\Debug\p90_URLify.exe
+C:\Users\SirJUST\source\repos\CTCI\p90_URLify\p90_URLify\obj\Debug\p90_URLify.pdb
