@@ -59,61 +59,73 @@ namespace StringRotation
         }
 
         [Fact]
-        public void stringRotationShouldReturnTrue_WhenOriginalWaterbottle_AndItemToBeCheckederbottleWat()
+        public void MySolutionShouldReturnTrue_WhenOriginalWaterbottle_AndItemToBeCheckederbottleWat()
         {
             //Arrange
             var stringRotation = new StringRotation();
 
             //Act
-            var result = stringRotation.stringRotation("waterbottle", "erbottlewat");
+            var result = stringRotation.MySolution("waterbottle", "erbottlewat");
             //Assert
             Assert.True(result);
         }
 
         [Fact]
-        public void stringRotationShouldReturnTrue_WhenOriginalHello_AndItemToBeCheckedoHell()
+        public void MySolutionShouldReturnTrue_WhenOriginalHello_AndItemToBeCheckedoHell()
         {
             //Arrange
             var stringRotation = new StringRotation();
 
             //Act
-            var result = stringRotation.stringRotation("Hello", "oHell");
+            var result = stringRotation.MySolution("Hello", "oHell");
             //Assert
             Assert.True(result);
         }
 
         [Fact]
-        public void stringRotationShouldReturnTrue_WhenOriginalcomputer_AndItemToBeCheckedutercomp()
+        public void MySolutionShouldReturnTrue_WhenOriginalcomputer_AndItemToBeCheckedutercomp()
         {
             //Arrange
             var stringRotation = new StringRotation();
 
             //Act
-            var result = stringRotation.stringRotation("computer", "utercomp");
+            var result = stringRotation.MySolution("computer", "utercomp");
             //Assert
             Assert.True(result);
         }
 
         [Fact]
-        public void stringRotationShouldReturnTrue_WhenOriginalutercomp_AndItemToBeCheckedcomputer()
+        public void MySolutionShouldReturnTrue_WhenOriginalutercomp_AndItemToBeCheckedcomputer()
         {
             //Arrange
             var stringRotation = new StringRotation();
 
             //Act
-            var result = stringRotation.stringRotation("utercomp", "computer");
+            var result = stringRotation.MySolution("utercomp", "computer");
             //Assert
             Assert.True(result);
         }
 
         [Fact]
-        public void stringRotationShouldReturnTrue_WhenOriginalcomputer_AndItemToBeCheckedcomputer()
+        public void MySolutionShouldReturnTrue_WhenOriginalcomputer_AndItemToBeCheckedcomputer()
         {
             //Arrange
             var stringRotation = new StringRotation();
 
             //Act
-            var result = stringRotation.stringRotation("computer", "computer");
+            var result = stringRotation.MySolution("computer", "computer");
+            //Assert
+            Assert.True(result);
+        }
+
+        [Fact]
+        public void BookSolutionShouldReturnTrue_WhenOriginalwaterbottle_AndItemToBeCheckederbottlewat()
+        {
+            //Arrange
+            var stringRotation = new StringRotation();
+
+            //Act
+            var result = stringRotation.BookSolution("waterbottle", "erbottlewat");
             //Assert
             Assert.True(result);
         }

@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xunit;
 
 namespace StringRotation
 {
     public class StringRotation
     {
-        public bool stringRotation(string original, string itemToBeChecked)
+        public bool MySolution(string original, string itemToBeChecked)
         {
             if (original.Length != itemToBeChecked.Length)
             {
@@ -54,6 +55,16 @@ namespace StringRotation
                 j++;
             }
             return true;
+        }
+
+        public bool BookSolution(string s1, string s2)
+        {
+            var len = s1.Length;
+            // check the two strings are equal in length
+            if (len != s2.Length || len <= 0) return false;
+            // concatenate s1 and s1 within new buffer
+            var s1s1 = s1 + s1;
+            return IsSubString(s1s1, s2);
         }
     }
 }
